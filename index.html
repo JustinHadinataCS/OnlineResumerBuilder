@@ -18,7 +18,6 @@
 
             <label for="phone">Phone:</label>
             <input type="tel" id="phone" required>
-
             <h2>Education:</h2>
             <label for="degree">Degree:</label>
             <input type="text" id="degree" required>
@@ -28,7 +27,6 @@
 
             <label for="graduationYear">Graduation Year:</label>
             <input type="number" id="graduationYear" required>
-
             <h2>Work Experience:</h2>
             <label for="jobTitle">Job Title:</label>
             <input type="text" id="jobTitle" required>
@@ -38,6 +36,7 @@
 
             <label for="workYear">Year:</label>
             <input type="text" id="workYear" required>
+
             <label for="template">Select Template:</label>
             <select id="template">
                 <option value="template1">Template 1</option>
@@ -45,7 +44,7 @@
             </select>
 
             <button type="button" onclick="generateResume()">Generate Resume</button>
-            <button type="button" onclick="downloadPDF()">Download PDF</button>
+            <button type="button" onclick="writeToFile()">Download PDF</button>
         </form>
 
         <div id="resumeOutput"></div>
